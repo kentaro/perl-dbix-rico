@@ -1,10 +1,15 @@
 package DBIx::Rico;
-use strict;
-use warnings;
+use 5.008001;
+use Mouse;
+extends 'DBIx::Rico::Thing';
 
 our $VERSION = '0.01';
 
-sub new {}
+sub search {}
+
+sub update {}
+
+sub delete {}
 
 1;
 
